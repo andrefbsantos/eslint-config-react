@@ -21,7 +21,7 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y'],
+  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'jest'],
   settings: {
     react: {
       version: 'detect',
